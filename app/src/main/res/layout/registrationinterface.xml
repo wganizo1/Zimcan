@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/bk">
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="@color/bk">
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_marginTop="20dp"
+        android:orientation="vertical" >
+
+        <ImageView
+            android:id="@+id/image"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="10dp"
+            android:layout_gravity="center_horizontal"
+            android:src="@mipmap/ic_launcher" />
+
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/username"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="20dp"
+            android:textColor="@color/colorPrimary"
+            android:textStyle="bold" />
+
+        <EditText
+        android:layout_width="fill_parent"
+        android:layout_height="70dp"
+        android:background="@drawable/img_back"
+        android:hint="@string/username"
+        android:id="@+id/edtuser"
+        android:inputType="textEmailAddress"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        style="@style/Theme.Design.Light" />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/password"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="20dp"
+            android:textColor="@color/colorPrimary"
+            android:textStyle="bold" />
+
+        <EditText
+        android:layout_width="fill_parent"
+        android:layout_height="70dp"
+        android:background="@drawable/img_back"
+        android:hint="@string/password"
+        android:id="@+id/edtpass"
+        android:inputType="textPassword"
+        android:layout_marginRight="20dp"
+            android:layout_marginBottom="20dp"
+        android:layout_marginLeft="20dp"
+        style="@style/Theme.Design.Light" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/confirm_password"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="20dp"
+            android:textColor="@color/colorPrimary"
+            android:textStyle="bold" />
+
+        <EditText
+            android:layout_width="fill_parent"
+            android:layout_height="70dp"
+            android:background="@drawable/img_back"
+            android:hint="@string/confirm_password"
+            android:id="@+id/edtcpass"
+            android:inputType="textPassword"
+            android:layout_marginRight="20dp"
+            android:layout_marginBottom="20dp"
+            android:layout_marginLeft="20dp"
+            style="@style/Theme.Design.Light" />
+        <Button
+            android:id="@+id/reg"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colorPrimary"
+            android:textColor="@color/bk"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="20dp"
+            android:text="@string/register"
+            />
+
+        <Button
+            android:id="@+id/login"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colorPrimary"
+            android:textColor="@color/bk"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="20dp"
+            android:text="@string/login"
+            />
+
+        <TextView
+            android:id="@+id/dev"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/powered_by_prosper"
+            android:gravity="bottom"
+            android:layout_marginTop="30dp"
+            android:layout_gravity="center_horizontal"
+            android:textColor="@color/colorPrimary"
+            android:textStyle="bold" />
+    </LinearLayout></ScrollView>
+
+
+
+</RelativeLayout>

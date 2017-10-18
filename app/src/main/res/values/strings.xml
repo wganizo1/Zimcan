@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">ZimCan</string>
+    <string name="zimcan">Zimcan</string>
+    <string name="gpsDisabled">Gps Disabled</string>
+    <string name="gpsNotActive">GPS and Network Based Location Services Not Active</string>
+    <string name="enableGPS">Please enable Location Services and GPS</string>
+    <string name="ok">OK</string>
+    <string name="quit">QUIT</string>
+    <string name="gpsEnabled">Gps Enabled</string>
+    <string name="title_activity_dash_board">DashBoard</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Accident Report</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="title_activity_home">Home</string>
+    <string name="panic_button">Accident Report Button</string>
+    <string name="panic_situation">ACCIDENT SITUATION</string>
+    <string name="send">SEND</string>
+    <string name="enter_details_of_situation">Enter The Details of the Accident Situation describing probable cause and current status. You are also required to take a photo showing the accident.</string>
+    <string name="username">Email</string>
+    <string name="password">Password</string>
+    <string name="login">LOGIN</string>
+    <string name="cancel">CANCEL</string>
+    <string name="loginButton">LOGIN</string>
+    <string name="enter_full_username">Enter Full Email of a Minimum of 6 Characters</string>
+    <string name="enter_full_password">Enter Full Password of a Minimum of 6 Characters</string>
+    <string name="invalid_email">: Invalid Email Address</string>
+    <string name="forgot_password">Forgot Password</string>
+    <string name="register">Register</string>
+    <string name="powered_by_prosper">Powered By Prosper</string>
+    <string name="more">More...</string>
+    <string name="logout">LOGOUT</string>
+    <string name="read_messages">Read Messages</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="pass_mismatch">Password Mismatch</string>
+</resources>
